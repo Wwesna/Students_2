@@ -1,0 +1,33 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Список студентов</title>
+		<script src="jquery-3.6.0.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="jquery-ui-1.13.1.custom/jquery-ui.min.css">
+<script type="text/javascript" src="jquery-ui-1.13.1.custom/jquery-ui.min.js"></script>
+</head>
+<body onload="load_from_site()">
+	<script src="main.js"> </script>
+ <div >
+	<button  id ="gh" onclick="utilization_data(); upload_stud_info()"  >Нажмите, чтобы загрузить список студентов</button>
+	<table id="tabs">
+			<thead id = "string" >
+				<tr id="tr">
+				</tr>
+				<tr id = "tr_m">
+					<th>№</th>
+					<th>Имя</th>
+					<th>Фамилия</th>
+					<th>Оценки</th>
+					<th>Средний балл</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+	</table>
+</div>	
+</body>
+</html>
